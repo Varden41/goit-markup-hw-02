@@ -1,0 +1,84 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-text-color: #2196F3;
+    --background-color: #E5E5E5;
+    --background-color-special: #2F303A;
+    --additionat-text-color: #FFFFFF;
+}
+
+/* Body */
+.page {
+    background-color: var(--background-color);
+    color: var(--primary-text-color);
+}
+
+/* Header */
+.logo {
+    color: var(--accent-text-color);
+}
+.list {
+    list-style: none;
+}
+.studio {
+    color: #000000;
+}
+
+/* Page-nav */
+.page-nav .link {
+    color: var(--title-text-color);
+}
+.page-nav .link:hover,
+.page-nav .link:focus {
+    color: var(--accent-text-color);
+}
+
+/* Contacts */
+.contacts-link{
+color: var(--primary-text-color); }
+
+.contacts-link:hover,
+.contacts-link:focus 
+{color: var(--accent-text-color);}
+
+
+/* Main */
+.section-title {
+    color:var(--title-text-color) ;
+}
+
+/* Section 1 Head */
+.head {
+    color: var(--additionat-text-color);
+    background-color: var(--background-color-special);
+}
+
+/* Section 2 advantages */
+.hide {
+    display: none;
+}
+.title {
+    color:var(--title-text-color) ;
+}
+/* Section 3 */
+.what-we-do {
+    list-style: none
+}
+/* Our team */
+
+
+/* Footer */
+.footer {
+    background-color: var(--background-color-special);
+}
+.studio-footer {
+    color: var(--additionat-text-color);
+}
+.contacts-link, .link, .logo {
+    text-decoration: none;
+}
+/* Button */
+button {
+color: var(--additionat-text-color);
+background-color: var(--accent-text-color);
+}
