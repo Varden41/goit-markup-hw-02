@@ -38,7 +38,6 @@
     color: var(--title-text-color);
 
     font-family: inherit;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -74,8 +73,6 @@ letter-spacing: 0.02em;
 }
 
 .section-title {
-
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 42px;
@@ -92,7 +89,7 @@ text-align: center;
 }
 .head-main {
     font-family: inherit;
-     font-weight: 900;
+    font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
@@ -113,7 +110,6 @@ line-height: 1.14;
 text-transform: uppercase;
 }
 .advantage-paragraph {
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -124,7 +120,7 @@ line-height: 1.71;
 }
 /* Our team */
 .our-team.list .title {
-font-style: normal;
+
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
@@ -140,14 +136,11 @@ line-height: 1.19;
 .adress {
 color: var(--additionat-text-color);
 font-style: normal;
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 
 }
 .footer-adress.list .contacts-link {
-font-style: normal;
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 }
@@ -182,7 +175,6 @@ line-height: 2;
 letter-spacing: 0.06em;
 }
 .projects.list p {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
