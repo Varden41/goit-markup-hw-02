@@ -6,6 +6,9 @@
     --background-color-special: #2F303A;
     --additionat-text-color: #FFFFFF;
     --portfolio-button-background: #F5F4FA;
+    --primary-botton-hover :#188CE8;
+    --our-team-bg-color :#F5F4FA;
+    --footer-adress-color :rgba(100%, 100%, 100%, 60%);
 }
 
 /* Body */
@@ -52,7 +55,7 @@
 
 /* Contacts */
 
-.contacts-link{
+.contacts-link.header{
 color: var(--primary-text-color);
 
 font-family: inherit;
@@ -62,8 +65,8 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 }
 
-.contacts-link:hover,
-.contacts-link:focus 
+.contacts-link.header:hover,
+.contacts-link.header:focus 
 {color: var(--accent-text-color);}
 
 
@@ -110,7 +113,6 @@ line-height: 1.14;
 text-transform: uppercase;
 }
 .advantage-paragraph {
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 }
@@ -119,11 +121,17 @@ line-height: 1.71;
     list-style: none
 }
 /* Our team */
-.our-team.list .title {
+.section.team {
+    background-color:var(--our-team-bg-color) ;
+}
 
+.our-team.list .title {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
+}
+.teammate {
+    background-color: var(--background-color);
 }
 
 /* Footer */
@@ -140,12 +148,20 @@ font-size: 14px;
 line-height: 1.71;
 
 }
-.footer-adress.list .contacts-link {
+.contacts-link.footer {
+color: var(--footer-adress-color);
+
 font-size: 14px;
 line-height: 1.71;
+font-family: inherit;
+letter-spacing: 0.03em;
 }
 .contacts-link, .link, .logo {
     text-decoration: none;
+}
+.contacts-link.footer:hover,
+.contacts-link.footer:focus {
+    color: var(--accent-text-color);
 }
 /* Button */
 .button {
@@ -164,9 +180,16 @@ line-height: 1.71;
     font-weight: 700;
     font-size: 16px;
     line-height: 1,88;
-
 }
+.button.primary:hover {
+    background-color:var(--primary-botton-hover) ;
+}
+
 /* Portfolio */
+
+.projects.list .project-items {
+    text-decoration: none;
+}
 
 .projects.list .title {
 font-weight: 700;
@@ -174,10 +197,12 @@ font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 }
+
 .projects.list p {
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
+color: var(--primary-text-color);
 }
 
 .button.selection {
@@ -193,7 +218,7 @@ border: none;
 }
 
 .button.selection:hover,
- .button.selection:focus{
+.button.selection:focus {
     background-color: var(--accent-text-color);
     color: var(--additionat-text-color);
 }
